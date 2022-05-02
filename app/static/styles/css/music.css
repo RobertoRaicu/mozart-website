@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.containermusic {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 1em;
+    background: #A61E10;
+
+
+}
+
+
+
+.card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+}
+
+.tag+.tag {
+    margin-left: .5em;
+}
+
+.tag-blue {
+    background: #56CCF2;
+    background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+    color: #fafafa;
+}
+
+.tag-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
+}
+
+.tag-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+}
+
+.card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.user {
+    display: flex;
+    gap: .5rem;
+}
+
+.user__image {
+    border-radius: 50%;
+}
+
+.user__info>small {
+    color: #666;
+}
+
+/* change prev next arrow size */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    padding: 0%;
+}
+
+.center {
+    margin: auto;
+    width: auto;
+    padding: 0;
+}
+
+/* Next & previous buttons */
+.prevbutton,
+.nextbutton {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    outline: 0 !important;
+}
+
+/* Position the "next button" to the right */
+.nextbutton {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
+
+.containermusic {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.entrymusic {
+    position: relative;
+    overflow: hidden;
+    margin: 30px 0;
+    padding: 20px 20px 4em 20px;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0 0 0;
+}
+
+.entry-titlemusic,
+.entry-titlemusic a {
+    margin-top: 0;
+    font-family: Oswald, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.entry-titlemusic a:hover {
+    color: gray;
+}
+
+.more-linkmusic {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 8px;
+    background: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    border-radius: 12px;
+}
+
+.more-linkmusic:hover {
+    background: #A61E10;
+    color: white
+  }
+
+.selectornoshadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+@media (min-width:1025px) { 
+    .firstcarousel {
+        height: 400px
+    }
+}
